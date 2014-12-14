@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D9A4EC2E-E6CC-4AF3-994B-E9620261DBA1</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>ADD665F458EF6902C8C5D0A6BE73E4894FDA4550</key>
+		<string>ssh://github.com/josephrider/clientel.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>ADD665F458EF6902C8C5D0A6BE73E4894FDA4550</key>
+		<string>clientel/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/josephrider/clientel.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>ADD665F458EF6902C8C5D0A6BE73E4894FDA4550</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ADD665F458EF6902C8C5D0A6BE73E4894FDA4550</string>
+			<key>IDESourceControlWCCName</key>
+			<string>clientel</string>
+		</dict>
+	</array>
+</dict>
+</plist>
