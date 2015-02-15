@@ -14,6 +14,11 @@
     NSMutableDictionary* working = [[NSMutableDictionary dictionary] init];
     
     for( int i = 0; i < list.count; i++ ){
+        if ( [list[i] isEqualToString:@"identifier"] ){
+            [working setValue:list[i] forKey:@"id"];
+            continue;
+        }
+        
         [working setValue:list[i] forKey:[list[i] underscore]];
     }
     

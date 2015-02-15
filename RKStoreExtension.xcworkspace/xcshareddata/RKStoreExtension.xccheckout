@@ -6,22 +6,30 @@
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>2975C460-799B-40BD-9765-88C2CE723B39</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RKStoreExtension</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>ADD665F458EF6902C8C5D0A6BE73E4894FDA4550</key>
 		<string>ssh://github.com/josephrider/clientel.git</string>
+		<key>B0920B1742AD38174EC990D72879568D5AEF4EB5</key>
+		<string>github.com:josephrider/RKStoreExtension.git</string>
 	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RKStoreExtension.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>ADD665F458EF6902C8C5D0A6BE73E4894FDA4550</key>
-		<string>clientel/</string>
+		<string>../../clientel</string>
+		<key>B0920B1742AD38174EC990D72879568D5AEF4EB5</key>
+		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/josephrider/clientel.git</string>
+	<string>github.com:josephrider/RKStoreExtension.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>ADD665F458EF6902C8C5D0A6BE73E4894FDA4550</string>
+	<string>B0920B1742AD38174EC990D72879568D5AEF4EB5</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -31,6 +39,14 @@
 			<string>ADD665F458EF6902C8C5D0A6BE73E4894FDA4550</string>
 			<key>IDESourceControlWCCName</key>
 			<string>clientel</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B0920B1742AD38174EC990D72879568D5AEF4EB5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RKStoreExtension</string>
 		</dict>
 	</array>
 </dict>

@@ -13,7 +13,8 @@
 
 -(void)find:(NSString*)modelName;
 -(void)find:(NSString*)modelName success:(void ( ^ ) ( id *operation , id *mappingResult ))success failure:(void ( ^ ) ( id *operation , NSError *error ))failure;
--(void)find:modelName id:(int)pk;
+-(void)find:(NSString*)modelName identifier:(int)pk success:(void ( ^ ) ( id *operation , id *mappingResult ))success failure:(void ( ^ ) ( id *operation , NSError *error ))failure;
+-(void)find:modelName identifier:(int)pk;
 -(void)findQuery:modelName query:queryParams;
 
 @end

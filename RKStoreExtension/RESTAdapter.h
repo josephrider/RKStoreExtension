@@ -15,10 +15,12 @@
 @end
 
 @interface RESTAdapter : NSObject <RESTInterface> {
+    id _store;
     @private
-    id store;
     id baseParams;
 }
+
+@property (nonatomic, retain) id store;
 
 -(instancetype)initWithStoreAndBaseParams:offeredStore andBaseParams:params;
 
@@ -26,8 +28,4 @@
 -(id)getBaseParams;
 -(id)getStore;
 
--(void)bindToCoreData;
--(void)find:modelName;
--(void)find:modelName id:(int)pk;
--(void)findQuery:modelName query:queryParams;
 @end

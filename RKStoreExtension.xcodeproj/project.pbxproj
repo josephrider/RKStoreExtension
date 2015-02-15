@@ -188,11 +188,11 @@
 		BF8208FE1A28FD1C0044BA26 /* Includes */ = {
 			isa = PBXGroup;
 			children = (
-				BF8208FF1A28FD9C0044BA26 /* NSString+Inflections.h */,
 				BF8209031A28FDCA0044BA26 /* NSString+InflectorKit.h */,
 				BF8209041A28FDCA0044BA26 /* NSString+InflectorKit.m */,
 				BF8209051A28FDCA0044BA26 /* TTTStringInflector.h */,
 				BF8209061A28FDCA0044BA26 /* TTTStringInflector.m */,
+				BF8208FF1A28FD9C0044BA26 /* NSString+Inflections.h */,
 				BF8209001A28FD9C0044BA26 /* NSString+Inflections.m */,
 			);
 			name = Includes;
