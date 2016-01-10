@@ -7,10 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <RKStoreExtension/NSString+InflectorKit.h>
 
 @interface NSString(Inflections)
     -(NSString*)camelize;
     -(NSString*)underscore;
     -(NSString*)classify;
+    -(NSString*)singularize;
+    -(NSString*)pluralize;
 @end

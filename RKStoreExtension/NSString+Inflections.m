@@ -7,8 +7,17 @@
 //
 
 #import "NSString+Inflections.h"
+#import "TTTStringInflector.h"
 
 @implementation NSString (Inflections)
+
+- (NSString *)singularize {
+    return [[TTTStringInflector defaultInflector] singularize:self];
+}
+
+- (NSString *)pluralize {
+    return [[TTTStringInflector defaultInflector] pluralize:self];
+}
 
 - (NSString *)underscore{
     NSScanner *scanner = [NSScanner scannerWithString:self];

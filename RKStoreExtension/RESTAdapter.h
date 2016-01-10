@@ -12,10 +12,11 @@
 
 @interface SupposedStore
 -(id)objectManager;
+-(void)didDeleteRecordOfType:identifier ofType:type;
 @end
 
 @interface RESTAdapter : NSObject <RESTInterface> {
-    id _store;
+    SupposedStore *_store;
     @private
     id baseParams;
 }
@@ -27,5 +28,8 @@
 -(id)getObjectManager;
 -(id)getBaseParams;
 -(id)getStore;
+
+-(void)deleteRecord:(id)record;
+-(void)didDeleteRecordOfType:identifier ofType:type;
 
 @end

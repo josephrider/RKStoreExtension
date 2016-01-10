@@ -18,6 +18,10 @@
     [self.adapter find:modelName];
 }
 
+-(void)deleteRecord:record {
+    [[self adapter] deleteRecord:record];
+}
+
 -(instancetype)init {
     if( self = [super init]){
         [self initializeStores];
@@ -34,4 +38,6 @@
 -(void)initializeStores {
     [self didInitializeStores];
 }
+
+-(void)didDeleteRecordOfType:identifier ofType:type {}
 @end

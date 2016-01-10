@@ -27,11 +27,12 @@
 }
 -(id)getObjectManager {
     id objectManager = [[self store] objectManager];
-    NSLog(@"%@", objectManager);
+//    NSLog(@"%@", objectManager);
     return [[self store] objectManager];
 }
 -(void)find:modelName {}
 -(void)find:modelName identifier:(int)pk {}
 -(void)findQuery:modelName query:queryParams {}
+-(void)deleteRecord:(id)record {}
 
 @end
