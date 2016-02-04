@@ -23,8 +23,12 @@
 -(void)mapModelAttributesWithStrategy:(PropertyMappingStrategy*)strategy {
     [strategy execute];
 }
--(void)createResponseDescriptor {}
--(void)attachResponseDescriptor {}
+-(void)createMultipleRecordResponseDescriptor {}
+-(void)attachMultipleRecordResponseDescriptor {}
+-(void)createSingleRecordResponseDescriptor {}
+-(void)attachSingleRecordResponseDescriptor {}
+-(void)createRequestDescriptor {}
+-(void)attachRequestDescriptor {}
 
 -(id)getProduct {
     return product;

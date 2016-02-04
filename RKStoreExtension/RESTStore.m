@@ -22,6 +22,10 @@
     [[self adapter] deleteRecord:record];
 }
 
+-(void)createRecord:record {
+    [[self adapter] createRecord:record];
+}
+
 -(instancetype)init {
     if( self = [super init]){
         [self initializeStores];
@@ -40,4 +44,5 @@
 }
 
 -(void)didDeleteRecordOfType:identifier ofType:type {}
+-(void)didCreateRecord:record {}
 @end

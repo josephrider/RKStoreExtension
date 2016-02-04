@@ -15,14 +15,20 @@
 }
 
 @property (nonatomic) id buildingEntityMapFor;
-@property (nonatomic) id responseDescriptor;
+@property (nonatomic) id singleRecordResponseDescriptor;
+@property (nonatomic) id multipleRecordResponseDescriptor;
+@property (nonatomic) id requestDescriptor;
 
 -(instancetype)initWithEntityName:(id)entityName;
 
 -(void)createEntityMap;
 -(void)mapModelAttributesWithStrategy:(PropertyMappingStrategy*)strategy;
--(void)createResponseDescriptor;
--(void)attachResponseDescriptor;
+-(void)createMultipleRecordResponseDescriptor;
+-(void)attachMultipleRecordResponseDescriptor;
+-(void)createSingleRecordResponseDescriptor;
+-(void)attachSingleRecordResponseDescriptor;
+-(void)createRequestDescriptor;
+-(void)attachRequestDescriptor;
 
 -(id)getProduct;
 

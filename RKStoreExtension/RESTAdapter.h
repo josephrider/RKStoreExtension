@@ -30,6 +30,7 @@
 -(id)getStore;
 
 -(void)deleteRecord:(id)record;
+-(void)createRecord:(id)record;
 -(void)didDeleteRecordOfType:identifier ofType:type;
 
 @end

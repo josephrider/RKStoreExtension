@@ -34,5 +34,6 @@
 -(void)find:modelName identifier:(int)pk {}
 -(void)findQuery:modelName query:queryParams {}
 -(void)deleteRecord:(id)record {}
+-(void)createRecord:(id)record {}
 
 @end

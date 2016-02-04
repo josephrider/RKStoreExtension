@@ -16,7 +16,9 @@
 -(id)all:modelName;
 -(void)find:(NSString*)modelName;
 -(void)deleteRecord:record;
+-(void)createRecord:record;
 -(void)didDeleteRecordOfType:identifier ofType:type;
+-(void)didCreateRecord:record;
 
 -(void)didInitializeStores;
 -(void)initializeStores;
