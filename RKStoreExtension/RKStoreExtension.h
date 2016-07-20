@@ -7,7 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "NSString+Inflections.h"
+#import <SBUtilities/SBUtilities.h>
 #import "EntityMapBuilder.h"
 #import "CamelcaseToUnderscoreKeyAnalyzerAlgorithm.h"
 #import "KeyAnalyzer.h"

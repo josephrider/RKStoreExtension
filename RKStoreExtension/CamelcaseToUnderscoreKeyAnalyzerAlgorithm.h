@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "KeyAnalyzerAlgorithm.h"
-#import "NSString+Inflections.h"
+#import <SBUtilities/SBUtilities.h>
 
 @interface CamelcaseToUnderscoreKeyAnalyzerAlgorithm : KeyAnalyzerAlgorithm
 

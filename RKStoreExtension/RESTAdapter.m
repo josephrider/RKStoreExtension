@@ -27,7 +27,6 @@
 }
 -(id)getObjectManager {
     id objectManager = [[self store] objectManager];
-//    NSLog(@"%@", objectManager);
     return [[self store] objectManager];
 }
 -(void)find:modelName {}

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B0920B1742AD38174EC990D72879568D5AEF4EB5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B0920B1742AD38174EC990D72879568D5AEF4EB5" : 0,
+    "ADD665F458EF6902C8C5D0A6BE73E4894FDA4550" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2975C460-799B-40BD-9765-88C2CE723B39",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B0920B1742AD38174EC990D72879568D5AEF4EB5" : "RKStoreExtension",
+    "ADD665F458EF6902C8C5D0A6BE73E4894FDA4550" : "clientel"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RKStoreExtension",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RKStoreExtension.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/github.com\/josephrider\/clientel.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ADD665F458EF6902C8C5D0A6BE73E4894FDA4550"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:josephrider\/RKStoreExtension.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B0920B1742AD38174EC990D72879568D5AEF4EB5"
+    }
+  ]
+}

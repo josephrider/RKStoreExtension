@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF709AD61D3E8E2E00805923 /* SBUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF709AD51D3E8E2E00805923 /* SBUtilities.framework */; };
 		BF8208BE1A28FA690044BA26 /* RKStoreExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8208BD1A28FA690044BA26 /* RKStoreExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF8208C41A28FA690044BA26 /* RKStoreExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8208B81A28FA690044BA26 /* RKStoreExtension.framework */; };
 		BF8208CB1A28FA690044BA26 /* RKStoreExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8208CA1A28FA690044BA26 /* RKStoreExtensionTests.m */; };
@@ -23,10 +24,6 @@
 		BF8208F41A28FB100044BA26 /* RESTAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8208E21A28FB100044BA26 /* RESTAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF8208F51A28FB100044BA26 /* RESTAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8208E31A28FB100044BA26 /* RESTAdapter.m */; };
 		BF8208F91A28FB3F0044BA26 /* RESTInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8208F81A28FB3F0044BA26 /* RESTInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF8209011A28FD9C0044BA26 /* NSString+Inflections.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8208FF1A28FD9C0044BA26 /* NSString+Inflections.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF8209021A28FD9C0044BA26 /* NSString+Inflections.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8209001A28FD9C0044BA26 /* NSString+Inflections.m */; };
-		BF8209091A28FDCA0044BA26 /* TTTStringInflector.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8209051A28FDCA0044BA26 /* TTTStringInflector.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF82090A1A28FDCA0044BA26 /* TTTStringInflector.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8209061A28FDCA0044BA26 /* TTTStringInflector.m */; };
 		BF82092C1A29B33D0044BA26 /* RESTStore.h in Headers */ = {isa = PBXBuildFile; fileRef = BF82092A1A29B33D0044BA26 /* RESTStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF82092D1A29B33D0044BA26 /* RESTStore.m in Sources */ = {isa = PBXBuildFile; fileRef = BF82092B1A29B33D0044BA26 /* RESTStore.m */; };
 /* End PBXBuildFile section */
@@ -42,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF709AD51D3E8E2E00805923 /* SBUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SBUtilities.framework; path = "../../Library/Developer/Xcode/DerivedData/SkyB-fmmwtdvjzuvigpafklolzbwmodjb/Build/Products/Debug/SBUtilities.framework"; sourceTree = "<group>"; };
 		BF8208B81A28FA690044BA26 /* RKStoreExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RKStoreExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF8208BC1A28FA690044BA26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF8208BD1A28FA690044BA26 /* RKStoreExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKStoreExtension.h; sourceTree = "<group>"; };
@@ -61,10 +59,6 @@
 		BF8208E21A28FB100044BA26 /* RESTAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESTAdapter.h; sourceTree = "<group>"; };
 		BF8208E31A28FB100044BA26 /* RESTAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESTAdapter.m; sourceTree = "<group>"; };
 		BF8208F81A28FB3F0044BA26 /* RESTInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESTInterface.h; sourceTree = "<group>"; };
-		BF8208FF1A28FD9C0044BA26 /* NSString+Inflections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Inflections.h"; sourceTree = "<group>"; };
-		BF8209001A28FD9C0044BA26 /* NSString+Inflections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Inflections.m"; sourceTree = "<group>"; };
-		BF8209051A28FDCA0044BA26 /* TTTStringInflector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTTStringInflector.h; path = ../../clientel/tables/InflectorKit/TTTStringInflector.h; sourceTree = "<group>"; };
-		BF8209061A28FDCA0044BA26 /* TTTStringInflector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTTStringInflector.m; path = ../../clientel/tables/InflectorKit/TTTStringInflector.m; sourceTree = "<group>"; };
 		BF82092A1A29B33D0044BA26 /* RESTStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESTStore.h; sourceTree = "<group>"; };
 		BF82092B1A29B33D0044BA26 /* RESTStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESTStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF709AD61D3E8E2E00805923 /* SBUtilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				BF8208BD1A28FA690044BA26 /* RKStoreExtension.h */,
-				BF8208FE1A28FD1C0044BA26 /* Includes */,
 				BF8208FD1A28FB790044BA26 /* Protocols */,
 				BF8208FA1A28FB430044BA26 /* Store */,
 				BF8208BB1A28FA690044BA26 /* Supporting Files */,
@@ -181,20 +175,10 @@
 			name = Protocols;
 			sourceTree = "<group>";
 		};
-		BF8208FE1A28FD1C0044BA26 /* Includes */ = {
-			isa = PBXGroup;
-			children = (
-				BF8209051A28FDCA0044BA26 /* TTTStringInflector.h */,
-				BF8209061A28FDCA0044BA26 /* TTTStringInflector.m */,
-				BF8208FF1A28FD9C0044BA26 /* NSString+Inflections.h */,
-				BF8209001A28FD9C0044BA26 /* NSString+Inflections.m */,
-			);
-			name = Includes;
-			sourceTree = "<group>";
-		};
 		F987B1DCBCC52869283D47C6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BF709AD51D3E8E2E00805923 /* SBUtilities.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -211,12 +195,10 @@
 				BF8208BE1A28FA690044BA26 /* RKStoreExtension.h in Headers */,
 				BF8208F21A28FB100044BA26 /* CamelcaseToUnderscoreKeyAnalyzerAlgorithm.h in Headers */,
 				BF82092C1A29B33D0044BA26 /* RESTStore.h in Headers */,
-				BF8209011A28FD9C0044BA26 /* NSString+Inflections.h in Headers */,
 				BF8208F91A28FB3F0044BA26 /* RESTInterface.h in Headers */,
 				BF8208EA1A28FB100044BA26 /* EntityMapBuilder.h in Headers */,
 				BF8208EC1A28FB100044BA26 /* PropertyMappingStrategy.h in Headers */,
 				BF8208F01A28FB100044BA26 /* KeyAnalyzerAlgorithm.h in Headers */,
-				BF8209091A28FDCA0044BA26 /* TTTStringInflector.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,9 +301,7 @@
 				BF8208ED1A28FB100044BA26 /* PropertyMappingStrategy.m in Sources */,
 				BF82092D1A29B33D0044BA26 /* RESTStore.m in Sources */,
 				BF8208EB1A28FB100044BA26 /* EntityMapBuilder.m in Sources */,
-				BF8209021A28FD9C0044BA26 /* NSString+Inflections.m in Sources */,
 				BF8208EF1A28FB100044BA26 /* KeyAnalyzer.m in Sources */,
-				BF82090A1A28FDCA0044BA26 /* TTTStringInflector.m in Sources */,
 				BF8208F31A28FB100044BA26 /* CamelcaseToUnderscoreKeyAnalyzerAlgorithm.m in Sources */,
 				BF8208F11A28FB100044BA26 /* KeyAnalyzerAlgorithm.m in Sources */,
 				BF8208F51A28FB100044BA26 /* RESTAdapter.m in Sources */,
